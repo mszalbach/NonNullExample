@@ -14,4 +14,9 @@ public class LombokCar implements Car {
     public String getName() {
         return null;
     }
+
+    @Override
+    public boolean isName(@NonNull final String name) {
+        return false;
+    }
 }

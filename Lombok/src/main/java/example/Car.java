@@ -4,8 +4,10 @@ import lombok.NonNull;
 
 public interface Car {
 
-    @NonNull String getName();
+    String getName();
 
     int getQuantityOfDoors();
+
+    boolean isName(@NonNull String name);
 
 }
